@@ -1,0 +1,28 @@
+# Node.js File Manager
+
+A beginner-level File Manager project built using Node.js.
+
+## Features
+- Create directories using `fs/promises`
+- Create and write files
+- Read file contents
+- Append additional content
+- Check file accessibility using `fs.access()`
+- Delete files using `fs.unlink()`
+
+## Modules Used
+- **File System (`fs/promises`)** – File and directory operations.
+- **Path (`path`)** – Handling and managing file paths.
+
+## Concepts Practiced
+- CommonJS modules
+- Asynchronous programming
+- Promises and async/await
+- Try/catch error handling
+- File system operations
+
+## Run the Project
+
+```bash
+node app.js
+```
