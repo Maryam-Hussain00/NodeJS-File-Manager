@@ -1,28 +1,75 @@
-Node.js File Manager
+# Node.js File Manager
 
-A beginner-level File Manager project built using Node.js.
+A simple command-line File Manager built with **Node.js**, using the built-in `fs/promises` and `path` modules. This project demonstrates basic file and directory management through asynchronous operations.
+
+---
 
 ## Features
-- Create directories using `fs/promises`
-- Create and write files
-- Read file contents
-- Append additional content
-- Check file accessibility using `fs.access()`
-- Delete files using `fs.unlink()`
 
-## Modules Used
-- **File System (`fs/promises`)** – File and directory operations.
-- **Path (`path`)** – Handling and managing file paths.
+- **Create Directories** – Create folders using `fs.mkdir()`.
+- **Create & Write Files** – Create files and write content using `fs.writeFile()`.
+- **Read Files** – Read and display file contents using `fs.readFile()`.
+- **Append Content** – Add new content without overwriting existing data using `fs.appendFile()`.
+- **Check File Accessibility** – Check file existence and accessibility using `fs.access()`.
+- **Delete Files** – Remove files using `fs.unlink()`.
+
+## Technologies & Modules
+
+| Technology | Purpose |
+|---|---|
+| Node.js | JavaScript runtime |
+| `fs/promises` | Asynchronous file and directory operations |
+| `path` | Handling and managing file paths |
 
 ## Concepts Practiced
-- CommonJS modules
-- Asynchronous programming
-- Promises and async/await
-- Try/catch error handling
-- File system operations
 
-## Run the Project
+- CommonJS Modules (`require`)
+- Asynchronous Programming
+- Promises and `async/await`
+- Error Handling (`try/catch`)
+- File System Operations
+- Path Manipulation
+
+## Getting Started
+
+### Prerequisites
+
+Make sure you have **Node.js** installed on your system.
+
+### Installation
+
+**1. Clone the repository**
+
+```bash
+git clone YOUR_REPOSITORY_URL
+```
+
+**2. Navigate to the project directory**
+
+```bash
+cd NodeJS-File-Manager
+```
+
+**3. Run the application**
 
 ```bash
 node app.js
 ```
+
+## Project Structure
+
+```text
+NodeJS-File-Manager/
+│
+├── app.js
+├── README.md
+└── .gitignore
+```
+
+## Purpose
+
+This project was built as a hands-on exercise to understand Node.js built-in modules and practice asynchronous file handling.
+
+---
+
+**Built with Node.js | Learning by Building**
