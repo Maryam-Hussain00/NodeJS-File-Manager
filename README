@@ -1,10 +1,10 @@
-#Node.js File Manager
+# Node.js File Manager
 
 A simple command-line File Manager built with **Node.js**, using the built-in `fs/promises` and `path` modules. This project demonstrates basic file and directory management through asynchronous operations.
 
 ---
 
-##Features
+## Features
 
 - **Create Directories** – Create folders using `fs.mkdir()`.
 - **Create & Write Files** – Create files and write content using `fs.writeFile()`.
